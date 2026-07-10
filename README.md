@@ -1,12 +1,22 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=venom&height=200&text=Zawar%20Tahir&fontSize=70&color=0:8871e5,100:b678c4&stroke=b678c4&fontColor=ffffff" alt="Zawar Tahir" />
-</p>
-
-<br />
+  <img src="https://capsule-render.vercel.app/api?type=venom&height=200&text=Zawar%20Tahir&fontSize=70&color=0:8871e5,100:b678c4&stroke=b678c4&fontColor=ffffff" alt="Zawar Tahir" /></p>
+<br/>
 
 
- 💫 About Me<br> 👨‍💻 Full-Stack Web Developer | Agentic AI Developer | Automation Expert<br><br>Hey there! I'm **Zawar Tahir** — a passionate developer who bridges the gap between traditional robust web development and next-generation intelligent automation. <br><br>🎯 **What drives me?** Transforming complex business ideas into seamless, high-performance digital assets. I specialize in building full-stack applications with the **MERN Stack** and expanding boundaries with **Agentic AI** to create smart, self-improving digital teammates. My goal is to craft scalable architectures and intelligent workflows that deliver measurable results.<br><br> 🚀 Quick Highlights:<br> 🔭 **I’m currently working on:** Advanced Blog Automation & Autonomous AI Workflows.<br> 🌱 **Mastering:** Deep diving into **n8n Automation**, Advanced Prompt Engineering, and Platform Scaling.<br> 💬 **Ask me about:** React, Node.js, MongoDB, Agentic AI, UI/UX, or SEO Optimization.<br> ⚡ **Fun Fact:** I once tried to build an AI agent to automatically reply to my emails... It ended up trying to negotiate a corporate partnership with my local pizza guy! 🍕🤖
+ 💫 About Me
+<table>
+<tr>
+<td width="60%">
+ 
+ <br> 👨‍💻 Full-Stack Web Developer | Agentic AI Developer | Automation Expert<br><br>Hey there! I'm **Zawar Tahir** — a passionate developer who bridges the gap between traditional robust web development and next-generation intelligent automation. <br><br>🎯 **What drives me?** Transforming complex business ideas into seamless, high-performance digital assets. I specialize in building full-stack applications with the **MERN Stack** and expanding boundaries with **Agentic AI** to create smart, self-improving digital teammates. My goal is to craft scalable architectures and intelligent workflows that deliver measurable results.<br><br> 🚀 Quick Highlights:<br> 🔭 **I’m currently working on:** Advanced Blog Automation & Autonomous AI Workflows.<br> 🌱 **Mastering:** Deep diving into **n8n Automation**, Advanced Prompt Engineering, and Platform Scaling.<br> 💬 **Ask me about:** React, Node.js, MongoDB, Agentic AI, UI/UX, or SEO Optimization.<br> ⚡ **Fun Fact:** I once tried to build an AI agent to automatically reply to my emails... It ended up trying to negotiate a corporate partnership with my local pizza guy! 🍕🤖
+</td>
+<td width="40%" align="center">
 
+<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="350" alt="Coding Animation" />
+
+</td>
+</tr>
+</table>
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/zawar_tahir) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/zawar-tahir) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:chzawartahir12@gmail.com) 
