@@ -169,7 +169,7 @@ Hey there! I'm **Zawar Tahir** — a passionate developer who bridges the gap be
 <br/><br/>
 
 <!-- 🏆 Trophies -->
-<img src="https://github-profile-trophy.vercel.app/?username=ZAWARTAHIR&theme=algolia&no-frame=true&margin-w=8&column=7" alt="Trophies" width="95%"/>
+<!-- <img src="https://github-profile-trophy.vercel.app/?username=ZAWARTAHIR&theme=algolia&no-frame=true&margin-w=8&column=7" alt="Trophies" width="95%"/> -->
 
 <br/><br/>
 
