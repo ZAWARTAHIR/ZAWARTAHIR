@@ -3,7 +3,7 @@
 <!-- ✨ Animated Banner ✨ -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./banner.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./zawar_tahir_banner_light.svg">
   <img src="./banner.svg" alt="Zawar Tahir — Full-Stack & Agentic AI Developer" width="100%"/>
 </picture>
 
