@@ -35,22 +35,22 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 ]]></style>
 
 <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-  <stop offset="0%" stop-color="#ffffff"/><stop offset="55%" stop-color="#f7f3ff"/><stop offset="100%" stop-color="#f0eaff"/>
+  <stop offset="0%" stop-color="#ffffff"/><stop offset="55%" stop-color="#fff5fa"/><stop offset="100%" stop-color="#f1e8ff"/>
 </linearGradient>
 <linearGradient id="nameg" x1="0" y1="0" x2="1" y2="0">
-  <stop offset="0%"><animate attributeName="stop-color" values="#db2777;#7c3aed;#8b5cf6;#db2777" dur="7s" repeatCount="indefinite"/></stop>
-  <stop offset="55%"><animate attributeName="stop-color" values="#c026d3;#a78bfa;#db2777;#c026d3" dur="7s" repeatCount="indefinite"/></stop>
-  <stop offset="100%"><animate attributeName="stop-color" values="#8b5cf6;#db2777;#7c3aed;#8b5cf6" dur="7s" repeatCount="indefinite"/></stop>
+  <stop offset="0%"><animate attributeName="stop-color" values="#e6177f;#7b3dff;#0e9fb8;#e6177f" dur="7s" repeatCount="indefinite"/></stop>
+  <stop offset="55%"><animate attributeName="stop-color" values="#d98a00;#a46bff;#e6177f;#d98a00" dur="7s" repeatCount="indefinite"/></stop>
+  <stop offset="100%"><animate attributeName="stop-color" values="#0e9fb8;#e6177f;#7b3dff;#0e9fb8" dur="7s" repeatCount="indefinite"/></stop>
 </linearGradient>
-<linearGradient id="borderg" x1="0" y1="0" x2="1" y2="1">
-  <stop offset="0%" stop-color="#ec4899" stop-opacity=".55"/>
-  <stop offset="50%" stop-color="#a855f7" stop-opacity=".5"/>
-  <stop offset="100%" stop-color="#7c3aed" stop-opacity=".55"/>
+<linearGradient id="borderg" x1="0" y1="0" x2="1" y2="1"><animateTransform attributeName="gradientTransform" type="rotate" values="0 .5 .5;360 .5 .5" dur="9s" repeatCount="indefinite"/>
+  <stop offset="0%" stop-color="#ff2e93" stop-opacity=".55"/>
+  <stop offset="50%" stop-color="#a46bff" stop-opacity=".5"/>
+  <stop offset="100%" stop-color="#7b3dff" stop-opacity=".55"/>
 </linearGradient>
-<radialGradient id="orbP"><stop offset="0%" stop-color="#db2777" stop-opacity=".10"/><stop offset="100%" stop-color="#db2777" stop-opacity="0"/></radialGradient>
-<radialGradient id="orbV"><stop offset="0%" stop-color="#8b5cf6" stop-opacity=".12"/><stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
-<radialGradient id="orbB"><stop offset="0%" stop-color="#0284c7" stop-opacity=".07"/><stop offset="100%" stop-color="#0284c7" stop-opacity="0"/></radialGradient>
-<radialGradient id="picGlow"><stop offset="0%" stop-color="#7c3aed" stop-opacity=".18"/><stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/></radialGradient>
+<radialGradient id="orbP"><stop offset="0%" stop-color="#e6177f" stop-opacity=".10"/><stop offset="100%" stop-color="#e6177f" stop-opacity="0"/></radialGradient>
+<radialGradient id="orbV"><stop offset="0%" stop-color="#0e9fb8" stop-opacity=".12"/><stop offset="100%" stop-color="#0e9fb8" stop-opacity="0"/></radialGradient>
+<radialGradient id="orbB"><stop offset="0%" stop-color="#0e9fb8" stop-opacity=".07"/><stop offset="100%" stop-color="#0e9fb8" stop-opacity="0"/></radialGradient>
+<radialGradient id="picGlow"><stop offset="0%" stop-color="#7b3dff" stop-opacity=".18"/><stop offset="100%" stop-color="#7b3dff" stop-opacity="0"/></radialGradient>
 <filter id="glow"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 <filter id="glowBig"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 <pattern id="dots" width="30" height="30" patternUnits="userSpaceOnUse"><circle cx="15" cy="15" r=".6" fill="rgba(124,58,237,.14)"/></pattern>
@@ -65,12 +65,12 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 <clipPath id="r3"><rect x="48" y="216" width="0" height="36"><animate attributeName="width" values="0;0;280;280;0;0" keyTimes="0;.51;.57;.7;.74;1" dur="24s" repeatCount="indefinite" begin="2.9s"/></rect></clipPath>
 <clipPath id="r4"><rect x="48" y="216" width="0" height="36"><animate attributeName="width" values="0;0;250;250;0;0" keyTimes="0;.76;.82;.95;.99;1" dur="24s" repeatCount="indefinite" begin="2.9s"/></rect></clipPath>
 <linearGradient id="scanEdge" x1="0" y1="0" x2="1" y2="0">
-  <stop offset="0%" stop-color="#db2777" stop-opacity="0"/><stop offset="18%" stop-color="#db2777"/>
-  <stop offset="50%" stop-color="#c026d3"/><stop offset="82%" stop-color="#7c3aed"/>
-  <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+  <stop offset="0%" stop-color="#e6177f" stop-opacity="0"/><stop offset="18%" stop-color="#e6177f"/>
+  <stop offset="50%" stop-color="#d98a00"/><stop offset="82%" stop-color="#7b3dff"/>
+  <stop offset="100%" stop-color="#7b3dff" stop-opacity="0"/>
 </linearGradient>
 <linearGradient id="scanTrail" x1="0" y1="0" x2="0" y2="1">
-  <stop offset="0%" stop-color="#db2777" stop-opacity="0"/><stop offset="100%" stop-color="#db2777" stop-opacity=".22"/>
+  <stop offset="0%" stop-color="#e6177f" stop-opacity="0"/><stop offset="100%" stop-color="#e6177f" stop-opacity=".22"/>
 </linearGradient>
 <clipPath id="picReveal"><rect x="730" y="196" width="500" height="0">
   <animate attributeName="height" from="0" to="500" dur="1.8s" begin=".5s" fill="freeze"/>
@@ -87,22 +87,22 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 <circle cx="700" cy="120" r="200" fill="url(#orbB)"><animate attributeName="r" values="200;225;200" dur="5.5s" repeatCount="indefinite"/></circle>
 <rect x="1" y="1" width="1278" height="778" rx="22" fill="none" stroke="url(#borderg)" stroke-width="1.5"/>
 
-<!-- rising particles -->
-<circle class="rp" cx="140" cy="660" r="1.4" fill="#db2777" style="animation-duration:5s"/>
-<circle class="rp" cx="420" cy="740" r="1.1" fill="#7c3aed" style="animation-duration:6s;animation-delay:1s"/>
-<circle class="rp" cx="620" cy="700" r="1.3" fill="#8b5cf6" style="animation-duration:4.6s;animation-delay:2s"/>
-<circle class="rp" cx="1180" cy="730" r="1.2" fill="#db2777" style="animation-duration:5.4s;animation-delay:.6s"/>
-<circle class="rp" cx="1240" cy="380" r="1" fill="#7c3aed" style="animation-duration:6.4s;animation-delay:1.6s"/>
-<circle class="rp" cx="70" cy="440" r="1" fill="#c026d3" style="animation-duration:5.8s;animation-delay:2.4s"/>
+<circle r="230" cy="430" cx="200" fill="url(#orbP)"><animate attributeName="cx" values="200;1100;200" dur="18s" repeatCount="indefinite"/><animate attributeName="cy" values="430;260;430" dur="11s" repeatCount="indefinite"/></circle><circle r="200" cy="200" cx="1100" fill="url(#orbB)"><animate attributeName="cx" values="1100;300;1100" dur="20s" repeatCount="indefinite"/><animate attributeName="cy" values="200;560;200" dur="13s" repeatCount="indefinite"/></circle><!-- rising particles -->
+<circle class="rp" cx="140" cy="660" r="1.4" fill="#e6177f" style="animation-duration:5s"/>
+<circle class="rp" cx="420" cy="740" r="1.1" fill="#7b3dff" style="animation-duration:6s;animation-delay:1s"/>
+<circle class="rp" cx="620" cy="700" r="1.3" fill="#0e9fb8" style="animation-duration:4.6s;animation-delay:2s"/>
+<circle class="rp" cx="1180" cy="730" r="1.2" fill="#e6177f" style="animation-duration:5.4s;animation-delay:.6s"/>
+<circle class="rp" cx="1240" cy="380" r="1" fill="#7b3dff" style="animation-duration:6.4s;animation-delay:1.6s"/>
+<circle class="rp" cx="70" cy="440" r="1" fill="#d98a00" style="animation-duration:5.8s;animation-delay:2.4s"/>
 
 <!-- sparkles -->
 <g class="tw" style="animation-delay:.4s"><path d="M470 120l3 8 8 3-8 3-3 8-3-8-8-3 8-3z" fill="#a21caf"/></g>
-<g class="tw" style="animation-delay:1.5s"><path d="M900 130l2.4 6.4 6.4 2.4-6.4 2.4-2.4 6.4-2.4-6.4-6.4-2.4 6.4-2.4z" fill="#db2777"/></g>
-<g class="tw" style="animation-delay:2.6s"><path d="M1245 260l2.4 6.4 6.4 2.4-6.4 2.4-2.4 6.4-2.4-6.4-6.4-2.4 6.4-2.4z" fill="#7c3aed"/></g>
+<g class="tw" style="animation-delay:1.5s"><path d="M900 130l2.4 6.4 6.4 2.4-6.4 2.4-2.4 6.4-2.4-6.4-6.4-2.4 6.4-2.4z" fill="#e6177f"/></g>
+<g class="tw" style="animation-delay:2.6s"><path d="M1245 260l2.4 6.4 6.4 2.4-6.4 2.4-2.4 6.4-2.4-6.4-6.4-2.4 6.4-2.4z" fill="#7b3dff"/></g>
 
 <!-- ================= LEFT: CONTENT ================= -->
 <!-- Terminal prompt -->
-<text clip-path="url(#cPrompt)" x="48" y="69" font-size="14"><tspan fill="#15803d" font-weight="bold">zawar@full-stack-dev</tspan><tspan fill="#6b7280">:~$ </tspan><tspan fill="#1f2430">cat </tspan><tspan fill="#c026d3">README.md</tspan></text>
+<text clip-path="url(#cPrompt)" x="48" y="69" font-size="14"><tspan fill="#15803d" font-weight="bold">zawar@full-stack-dev</tspan><tspan fill="#6b7280">:~$ </tspan><tspan fill="#1f2430">cat </tspan><tspan fill="#d98a00">README.md</tspan></text>
 <rect x="472" y="56" width="8" height="16" fill="#15803d" opacity="0"><animate attributeName="opacity" values="1;0" dur="1s" repeatCount="indefinite" begin="1.35s"/></rect>
 
 <!-- Hi, I'm -->
@@ -110,26 +110,26 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 
 <!-- Name -->
 <text class="name ltr" style="animation-delay:1.5s" x="48" y="212" font-size="66" fill="url(#nameg)" filter="url(#glow)">Zawar Tahir</text>
-<g class="hb" style="animation-delay:2.4s"><path d="M410 178 c-5-11-21-9-21 4 0 9 12 16 21 22 9-6 21-13 21-22 0-13-16-15-21-4z" fill="#db2777" opacity=".95"/></g>
+<g class="hb" style="animation-delay:2.4s"><path d="M410 178 c-5-11-21-9-21 4 0 9 12 16 21 22 9-6 21-13 21-22 0-13-16-15-21-4z" fill="#e6177f" opacity=".95"/></g>
 
 <!-- Cycling roles -->
-<text clip-path="url(#r1)" x="48" y="241" font-size="17" fill="#c026d3" filter="url(#glow)">&lt; Full-Stack Web Developer /&gt;</text>
-<text clip-path="url(#r2)" x="48" y="241" font-size="17" fill="#c026d3" filter="url(#glow)">&lt; MERN Stack Developer /&gt;</text>
-<text clip-path="url(#r3)" x="48" y="241" font-size="17" fill="#c026d3" filter="url(#glow)">&lt; n8n Automation Engineer /&gt;</text>
-<text clip-path="url(#r4)" x="48" y="241" font-size="17" fill="#c026d3" filter="url(#glow)">&lt; REST API Architect /&gt;</text>
-<rect x="48" y="228" width="2.5" height="16" fill="#c026d3" opacity="0"><animate attributeName="opacity" values="1;0" dur=".8s" repeatCount="indefinite" begin="2.9s"/></rect>
+<text clip-path="url(#r1)" x="48" y="241" font-size="17" fill="#d98a00" filter="url(#glow)">&lt; Full-Stack Web Developer /&gt;</text>
+<text clip-path="url(#r2)" x="48" y="241" font-size="17" fill="#d98a00" filter="url(#glow)">&lt; MERN Stack Developer /&gt;</text>
+<text clip-path="url(#r3)" x="48" y="241" font-size="17" fill="#d98a00" filter="url(#glow)">&lt; n8n Automation Engineer /&gt;</text>
+<text clip-path="url(#r4)" x="48" y="241" font-size="17" fill="#d98a00" filter="url(#glow)">&lt; REST API Architect /&gt;</text>
+<rect x="48" y="228" width="2.5" height="16" fill="#d98a00" opacity="0"><animate attributeName="opacity" values="1;0" dur=".8s" repeatCount="indefinite" begin="2.9s"/></rect>
 
 <!-- Quote box -->
 <g class="cl" style="animation:fadeIn .5s ease 3.2s forwards">
   <rect x="48" y="262" width="380" height="72" rx="8" fill="#ffffff" stroke="#e6dcf7" stroke-width="1"/>
-  <rect x="48" y="266" width="3.5" height="64" rx="1.5" fill="#db2777"/>
+  <rect x="48" y="266" width="3.5" height="64" rx="1.5" fill="#e6177f"/>
 </g>
 <text clip-path="url(#q1)" x="76" y="292" font-size="15" fill="#1f2430">I don't just write code,</text>
-<text clip-path="url(#q2)" x="76" y="318" font-size="15"><tspan fill="#1f2430">I </tspan><tspan fill="#db2777" font-weight="bold">automate</tspan><tspan fill="#1f2430"> it.</tspan></text>
+<text clip-path="url(#q2)" x="76" y="318" font-size="15"><tspan fill="#1f2430">I </tspan><tspan fill="#e6177f" font-weight="bold">automate</tspan><tspan fill="#1f2430"> it.</tspan></text>
 <g class="tw" style="animation-delay:.9s"><path d="M400 288l2.4 6.4 6.4 2.4-6.4 2.4-2.4 6.4-2.4-6.4-6.4-2.4 6.4-2.4z" fill="#a21caf"/></g>
 
 <!-- Tech I Know -->
-<text class="ii" x="48" y="374" font-size="15" fill="#7c3aed" font-weight="bold" style="animation:fadeIn .4s ease 4.6s forwards">🧩 Tech I Know</text>
+<text class="ii" x="48" y="374" font-size="15" fill="#7b3dff" font-weight="bold" style="animation:fadeIn .4s ease 4.6s forwards">🧩 Tech I Know</text>
 
 <!-- Row 1 -->
 <g class="pill" style="animation:fadeIn .3s ease 4.8s forwards"><rect x="48" y="388" width="110" height="26" rx="13" fill="rgba(247,223,30,.10)" stroke="#f7df1e" stroke-width="1"/><text x="103" y="405" text-anchor="middle" font-size="12" fill="#a16207" font-weight="bold">JavaScript</text></g>
@@ -150,10 +150,10 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 <g class="pill" style="animation:fadeIn .3s ease 5.9s forwards"><rect x="333" y="456" width="80" height="26" rx="13" fill="rgba(36,150,237,.14)" stroke="#2496ed" stroke-width="1"/><text x="373" y="473" text-anchor="middle" font-size="12" fill="#1d4ed8" font-weight="bold">Docker</text></g>
 
 <!-- About Me -->
-<text class="ii" x="48" y="522" font-size="15" fill="#db2777" font-weight="bold" style="animation:fadeIn .4s ease 6.1s forwards">💗 About Me</text>
+<text class="ii" x="48" y="522" font-size="15" fill="#e6177f" font-weight="bold" style="animation:fadeIn .4s ease 6.1s forwards">💗 About Me</text>
 <text class="ii" x="48" y="548" font-size="13.5" style="animation:fadeIn .4s ease 6.3s forwards"><tspan fill="#15803d">&gt;_ </tspan><tspan fill="#cdd3dd">I build responsive, database-driven web apps with the MERN stack.</tspan></text>
 <text class="ii" x="48" y="572" font-size="13.5" style="animation:fadeIn .4s ease 6.5s forwards"><tspan fill="#a16207">⚙️ </tspan><tspan fill="#cdd3dd">Automating workflows with n8n — cut manual effort by ~40%.</tspan></text>
-<text class="ii" x="48" y="596" font-size="13.5" style="animation:fadeIn .4s ease 6.7s forwards"><tspan fill="#db2777">🚀 </tspan><tspan fill="#cdd3dd">Shipping weekly as a contract MERN developer, one commit at a time.</tspan></text>
+<text class="ii" x="48" y="596" font-size="13.5" style="animation:fadeIn .4s ease 6.7s forwards"><tspan fill="#e6177f">🚀 </tspan><tspan fill="#cdd3dd">Shipping weekly as a contract MERN developer, one commit at a time.</tspan></text>
 
 <!-- Stats card -->
 <g class="st" style="animation:fadeIn .5s ease 6.9s forwards">
@@ -166,10 +166,10 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
   <text x="398" y="644" text-anchor="middle" font-size="11.5" fill="#6b7280">👤 Users Served</text>
   <text x="538" y="644" text-anchor="middle" font-size="11.5" fill="#6b7280">👥 Followers</text>
 </g>
-<text class="st" x="118" y="672" text-anchor="middle" font-size="18" font-weight="bold" fill="#db2777" filter="url(#glow)" style="animation:fadeIn .4s ease 7.1s forwards">13+</text>
-<text class="st" x="258" y="672" text-anchor="middle" font-size="18" font-weight="bold" fill="#c026d3" filter="url(#glow)" style="animation:fadeIn .4s ease 7.25s forwards">18+</text>
+<text class="st" x="118" y="672" text-anchor="middle" font-size="18" font-weight="bold" fill="#e6177f" filter="url(#glow)" style="animation:fadeIn .4s ease 7.1s forwards">13+</text>
+<text class="st" x="258" y="672" text-anchor="middle" font-size="18" font-weight="bold" fill="#d98a00" filter="url(#glow)" style="animation:fadeIn .4s ease 7.25s forwards">18+</text>
 <text class="st" x="398" y="672" text-anchor="middle" font-size="18" font-weight="bold" fill="#a16207" filter="url(#glow)" style="animation:fadeIn .4s ease 7.4s forwards">500+</text>
-<text class="st" x="538" y="672" text-anchor="middle" font-size="18" font-weight="bold" fill="#7c3aed" filter="url(#glow)" style="animation:fadeIn .4s ease 7.55s forwards">2</text>
+<text class="st" x="538" y="672" text-anchor="middle" font-size="18" font-weight="bold" fill="#7b3dff" filter="url(#glow)" style="animation:fadeIn .4s ease 7.55s forwards">2</text>
 
 <!-- ================= RIGHT: ILLUSTRATION ================= -->
 <circle cx="980" cy="446" r="270" fill="url(#picGlow)"><animate attributeName="r" values="270;292;270" dur="5s" repeatCount="indefinite"/></circle>
@@ -193,8 +193,8 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
   <text x="695" y="58" text-anchor="middle" font-size="11" fill="#6b7280">buildStack.js</text>
 </g>
 <g font-size="12.5">
-  <text class="cl" x="568" y="90" style="animation:fadeIn .3s ease 1.8s forwards"><tspan fill="#c026d3">function</tspan><tspan fill="#0e7490"> buildStack</tspan><tspan fill="#1f2430">() {</tspan></text>
-  <text class="cl" x="582" y="110" style="animation:fadeIn .3s ease 2.1s forwards"><tspan fill="#c026d3">return</tspan><tspan fill="#1f2430"> (</tspan></text>
+  <text class="cl" x="568" y="90" style="animation:fadeIn .3s ease 1.8s forwards"><tspan fill="#d98a00">function</tspan><tspan fill="#0e7490"> buildStack</tspan><tspan fill="#1f2430">() {</tspan></text>
+  <text class="cl" x="582" y="110" style="animation:fadeIn .3s ease 2.1s forwards"><tspan fill="#d98a00">return</tspan><tspan fill="#1f2430"> (</tspan></text>
   <text class="cl" x="596" y="130" style="animation:fadeIn .3s ease 2.4s forwards"><tspan fill="#6b7280">&lt;</tspan><tspan fill="#15803d">MERN</tspan><tspan fill="#6b7280">&gt;</tspan></text>
   <text class="cl" x="610" y="148" style="animation:fadeIn .3s ease 2.7s forwards"><tspan fill="#6b7280">&lt;</tspan><tspan fill="#be123c">n8n</tspan><tspan fill="#6b7280"> automate /&gt;</tspan></text>
   <text class="cl" x="596" y="166" style="animation:fadeIn .3s ease 3s forwards"><tspan fill="#6b7280">&lt;/</tspan><tspan fill="#15803d">MERN</tspan><tspan fill="#6b7280">&gt;</tspan><tspan fill="#1f2430">);</tspan></text>
@@ -202,20 +202,20 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 
 <!-- Neon sign -->
 <g class="neon-on">
-  <rect x="1012" y="42" width="238" height="128" rx="14" fill="none" stroke="#c026d3" stroke-width="1.5" opacity=".5" filter="url(#glow)"/>
-  <text class="np" x="1131" y="86" text-anchor="middle" font-size="30" font-weight="bold" fill="#db2777" filter="url(#glowBig)" style="animation-delay:.2s">&lt;/&gt;</text>
-  <text class="np" x="1131" y="118" text-anchor="middle" font-size="19" font-weight="bold" fill="#c026d3" filter="url(#glow)" letter-spacing="2">KEEP SHIPPING</text>
-  <text class="np" x="1131" y="146" text-anchor="middle" font-size="19" font-weight="bold" fill="#7c3aed" filter="url(#glow)" letter-spacing="1.5" style="animation-delay:1.3s">KEEP AUTOMATING</text>
+  <rect x="1012" y="42" width="238" height="128" rx="14" fill="none" stroke="#d98a00" stroke-width="1.5" opacity=".5" filter="url(#glow)"/>
+  <text class="np" x="1131" y="86" text-anchor="middle" font-size="30" font-weight="bold" fill="#e6177f" filter="url(#glowBig)" style="animation-delay:.2s">&lt;/&gt;</text>
+  <text class="np" x="1131" y="118" text-anchor="middle" font-size="19" font-weight="bold" fill="#d98a00" filter="url(#glow)" letter-spacing="2">KEEP SHIPPING</text>
+  <text class="np" x="1131" y="146" text-anchor="middle" font-size="19" font-weight="bold" fill="#7b3dff" filter="url(#glow)" letter-spacing="1.5" style="animation-delay:1.3s">KEEP AUTOMATING</text>
 </g>
 
 <!-- Pixel heart -->
 <g class="fl2" style="animation-delay:.7s">
   <g transform="translate(600,340)" opacity="0">
     <animate attributeName="opacity" from="0" to=".95" dur=".6s" begin="4.4s" fill="freeze"/>
-    <g fill="#a855f7"><rect x="6" y="0" width="6" height="6"/><rect x="18" y="0" width="6" height="6"/><rect x="0" y="6" width="30" height="6"/><rect x="3" y="12" width="24" height="6"/><rect x="9" y="18" width="12" height="6"/><rect x="12" y="24" width="6" height="4"/></g>
+    <g fill="#a46bff"><rect x="6" y="0" width="6" height="6"/><rect x="18" y="0" width="6" height="6"/><rect x="0" y="6" width="30" height="6"/><rect x="3" y="12" width="24" height="6"/><rect x="9" y="18" width="12" height="6"/><rect x="12" y="24" width="6" height="4"/></g>
   </g>
 </g>
-<g class="hb" style="animation-delay:1.4s"><path d="M1236 190 c-4-9-17-7-17 3 0 7 10 13 17 18 7-5 17-11 17-18 0-10-13-12-17-3z" fill="#db2777" opacity=".85" filter="url(#glow)"/></g>
+<g class="hb" style="animation-delay:1.4s"><path d="M1236 190 c-4-9-17-7-17 3 0 7 10 13 17 18 7-5 17-11 17-18 0-10-13-12-17-3z" fill="#e6177f" opacity=".85" filter="url(#glow)"/></g>
 
 <!-- ================= FOOTER ================= -->
 <line x1="48" y1="710" x2="1232" y2="710" class="sep" stroke-dasharray="1184" stroke-dashoffset="1184">
@@ -224,12 +224,12 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 <g class="soc" style="animation:fadeIn .5s ease 7.9s forwards">
   <g transform="translate(48,726) scale(.8)"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" fill="#374151"/></g>
   <text x="74" y="741" font-size="12.5" fill="#374151">ZAWARTAHIR</text>
-  <g transform="translate(196,727) scale(.8)"><rect x="1" y="3" width="22" height="17" rx="3.5" fill="none" stroke="#db2777" stroke-width="2"/><path d="M2.5 5.5 12 13l9.5-7.5" fill="none" stroke="#db2777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <g transform="translate(196,727) scale(.8)"><rect x="1" y="3" width="22" height="17" rx="3.5" fill="none" stroke="#e6177f" stroke-width="2"/><path d="M2.5 5.5 12 13l9.5-7.5" fill="none" stroke="#e6177f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
   <text x="222" y="741" font-size="12.5" fill="#374151">chzawartahir12@gmail.com</text>
-  <g transform="translate(452,726) scale(.8)"><rect width="24" height="24" rx="5" fill="none" stroke="#0284c7" stroke-width="2"/><text x="5" y="17" font-size="13" font-weight="bold" fill="#0284c7">in</text></g>
+  <g transform="translate(452,726) scale(.8)"><rect width="24" height="24" rx="5" fill="none" stroke="#0e9fb8" stroke-width="2"/><text x="5" y="17" font-size="13" font-weight="bold" fill="#0e9fb8">in</text></g>
   <text x="480" y="741" font-size="12.5" fill="#374151">zawar-tahir-742535342</text>
 </g>
-<text class="soc" x="1232" y="741" text-anchor="end" font-size="13" style="animation:fadeIn .5s ease 8.1s forwards"><tspan fill="#6b7280">“</tspan><tspan fill="#a21caf">Automation is my art, Code is my craft.</tspan><tspan fill="#6b7280">” </tspan><tspan fill="#db2777">❤</tspan></text>
+<text class="soc" x="1232" y="741" text-anchor="end" font-size="13" style="animation:fadeIn .5s ease 8.1s forwards"><tspan fill="#6b7280">“</tspan><tspan fill="#a21caf">Automation is my art, Code is my craft.</tspan><tspan fill="#6b7280">” </tspan><tspan fill="#e6177f">❤</tspan></text>
 <text class="soc" x="1232" y="722" text-anchor="end" font-size="11.5" style="animation:fadeIn .5s ease 8s forwards"><tspan fill="#28c840">●</tspan><tspan fill="#6b7280"> open to opportunities</tspan></text>
 
 <!-- full-banner scanner -->
